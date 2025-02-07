@@ -16591,10 +16591,10 @@ section.clients-testimonial-area {
   }
 }
 .tmp-banner-one-area.style-3 .thumbnail-author img, .tmp-banner-one-area.style-4 .thumbnail-author img {
-  border-radius: 100%;
-  border: 25px solid #141414;
-  width: 350px;
-  height: 350px;
+  /* border-radius: 100%;
+  border: 25px solid #141414; */
+  width: 600px;
+  /* height: 350px; */
   object-fit: cover;
   min-width: 350px;
 }
@@ -24453,9 +24453,9 @@ body.tmp-white-version .banner-two-main-wrapper .banner-right-content .main-img 
   display: none !important;
 }
 
-.tmp-white-version .tmp-banner-one-area.style-3 .thumbnail-author img, .tmp-white-version .tmp-banner-one-area.style-4 .thumbnail-author img {
+/* .tmp-white-version .tmp-banner-one-area.style-3, .tmp-white-version .tmp-banner-one-area.style-4 .thumbnail-author img {
   border: 25px solid #ebebeb;
-}
+} */
 
 .index-ten .tmp-contact-about-inner {
   flex-direction: column;
