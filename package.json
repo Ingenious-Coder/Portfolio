@@ -9,6 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
+    "animejs": "^3.2.2",
     "astro": "^5.2.5"
+  },
+  "devDependencies": {
+    "@types/three": "^0.173.0"
   }
 }

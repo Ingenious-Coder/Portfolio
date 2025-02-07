@@ -482,7 +482,7 @@
       });
       let chars = mySplitText.chars;
       endTl.to(chars, {
-        duration: 0.5,
+        duration: 1,
         scaleY: 0.9,
         ease: "power3.out",
         stagger: 0.04,
