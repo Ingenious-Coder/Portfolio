@@ -1,9 +1,13 @@
-<div class="loader-page">
-  <img class="udin" src="ino.png" alt="personal-logo" width="200px" />
+---
+
+---
+
+<div class="udin-loader-page" id="loader">
+  <img class="udin-kuda" src="ino.png" alt="personal-logo" width="200px" />
 </div>
 
 <style>
-  .loader-page {
+  .udin-loader-page {
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +21,7 @@
     animation: fadeOut 1.5s ease-in-out 3s forwards;
   }
 
-  .udin {
+  .udin-kuda {
     animation: complexSpin 3s ease-in-out forwards;
   }
 
@@ -26,13 +30,13 @@
       transform: rotate(0deg) scale(1);
     }
     25% {
-      transform: rotate(180deg) scale(2);
+      transform: rotate(180deg) scale(1);
     }
     50% {
-      transform: rotate(360deg) scale(1.5);
+      transform: rotate(360deg) scale(1);
     }
     75% {
-      transform: rotate(540deg) scale(1.2);
+      transform: rotate(540deg) scale(1);
     }
     100% {
       transform: rotate(720deg) scale(1);
@@ -49,3 +53,12 @@
     }
   }
 </style>
+
+<script>
+  setTimeout(() => {
+    const loader = document.getElementById("loader");
+    if (loader) {
+      loader.style.display = "none";
+    }
+  }, 2500);
+</script>
