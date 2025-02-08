@@ -20366,7 +20366,7 @@ body.loaded {
 .about-us-left-content-wrap.bg-vactor-one::after {
   content: " ";
   position: absolute;
-  left: 0;
+  right: 0;
   top: 197px;
   background: linear-gradient(0deg, rgba(255, 1, 79, 0) 15.49%, var(--color-primary) 100%);
   filter: blur(2px);
@@ -20374,6 +20374,7 @@ body.loaded {
   width: 410px;
   height: 410px;
   z-index: -1;
+  opacity: 0.3;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-left-content-wrap.bg-vactor-one::after {
